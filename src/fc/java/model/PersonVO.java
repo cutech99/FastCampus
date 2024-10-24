@@ -36,4 +36,7 @@ public class PersonVO {
     public String getPhone(){
         return this.phone;
     }
+    public String toString(){
+        return name+"\t"+age+"\t"+phone;
+    }
 }
