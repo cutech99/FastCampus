@@ -10,7 +10,7 @@ public class Employee {
     private boolean marriage;
 
     public Employee(){
-        super(); // 상위 클래스의 생성자를 호출 >
+        super(); // 상위 클래스의 생성자를 호출
     }
 
     public Employee(String name, int age, String phone, String empDate, String dept, boolean marriage) {
